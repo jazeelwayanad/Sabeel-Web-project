@@ -20,7 +20,7 @@ body {
 }
 
 .logo-container img {
-  /* width: 400px; */
+  width: 80%;
 }
 .header-menu-container {
   display: flex;
@@ -35,7 +35,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 750;
-  font-size: 13pt;
+  font-size: 11pt;
 }
 .first-main-container {
   background-size: cover;
@@ -54,7 +54,7 @@ body {
 .header-title {
   font-family: "Montserrat", sans-serif;
   margin-top: 160px;
-  font-size: 60pt;
+  font-size: 55pt;
   font-weight: 800;
   line-height: 60pt;
   color: #112a65;
@@ -62,7 +62,7 @@ body {
 .header-para {
   font-family: "Montserrat", sans-serif;
   margin-top: -25px;
-  font-size: 17pt;
+  font-size: 15pt;
   line-height: 19pt;
   font-weight: 600;
   width: 850px;
