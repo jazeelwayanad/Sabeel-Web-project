@@ -116,7 +116,7 @@ body {
        rgb(15, 42, 117) 100%
      ); 
 }
-.statistics-container, .news-and-updates{
+.statistics-container, .news-and-updates, .publications{
   padding: 70px;
   text-align: center;
   display: flex;
@@ -189,9 +189,15 @@ body {
 }
 
 .carousel-container{
-  margin: 40px;
+  margin: 50px;
+  margin-top: 80px;
   width: 1650px;
   height: 550px;
   background-color: #112a65;
   border-radius: 80px;
+}
+.carousel-container img{
+  border-radius: 80px;
+  /* width: 1650px; */
+  /* height: 550px; */
 }
