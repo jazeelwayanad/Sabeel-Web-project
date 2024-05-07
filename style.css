@@ -71,8 +71,8 @@ body {
   width: 900px;
   color: white;
 }
-.know-more-button{
-    text-decoration: none;
+.know-more-button {
+  text-decoration: none;
   color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -82,7 +82,7 @@ body {
   padding-right: 40px;
   border-radius: 100px;
   background: rgb(31, 60, 140);
- background: -moz-linear-gradient(
+  background: -moz-linear-gradient(
     90deg,
     rgba(88, 116, 182, 1) 0%,
     rgba(31, 60, 140, 1) 100%
@@ -96,27 +96,29 @@ body {
     90deg,
     rgba(88, 116, 182, 1) 0%,
     rgba(31, 60, 140, 1) 100%
-  ); 
+  );
 }
-.know-more-button:hover{
-    background: rgb(31, 60, 140);
-    background: -moz-linear-gradient(
-       90deg,
-       rgb(52, 92, 184) 0%,
-       rgb(15, 42, 117) 100%
-     );
-     background: -webkit-linear-gradient(
-       90deg,
-       rgb(52, 92, 184) 0%,
-       rgb(15, 42, 117) 100%
-     );
-     background: linear-gradient(
-       90deg,
-       rgb(52, 92, 184) 0%,
-       rgb(15, 42, 117) 100%
-     ); 
+.know-more-button:hover {
+  background: rgb(31, 60, 140);
+  background: -moz-linear-gradient(
+    90deg,
+    rgb(52, 92, 184) 0%,
+    rgb(15, 42, 117) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(52, 92, 184) 0%,
+    rgb(15, 42, 117) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgb(52, 92, 184) 0%,
+    rgb(15, 42, 117) 100%
+  );
 }
-.statistics-container, .news-and-updates, .publications{
+.statistics-container,
+.news-and-updates,
+.publications {
   padding: 70px;
   text-align: center;
   display: flex;
@@ -124,26 +126,26 @@ body {
   /* justify-content: center; */
   align-items: center;
 }
-.section-title{
+.section-title {
   font-weight: 650;
   font-size: 50pt;
   color: #112a65;
 }
 
-.half-line{
+.half-line {
   margin-top: -20px;
   width: 1300px;
   color: #5d5d5d;
   opacity: 40%;
 }
-.statistics-content p{
+.statistics-content p {
   width: 1300px;
   color: #5d5d5d;
   font-size: 18pt;
   font-weight: 550;
 }
 
-.statistics-count-container{
+.statistics-count-container {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -152,30 +154,22 @@ body {
   justify-content: space-around;
 }
 
-.counter{
+.counter {
   font-size: 35pt;
   font-weight: 600;
   padding: 0%;
   margin-bottom: 0px;
-  background: linear-gradient(
-    180deg, 
+  background: linear-gradient(180deg, rgb(31, 60, 140), rgb(88, 116, 182));
+  background: -webkit-linear-gradient(
+    180deg,
     rgb(31, 60, 140),
     rgb(88, 116, 182)
-    );
-  background: -webkit-linear-gradient(
-    180deg, 
-    rgb(31, 60, 140), 
-    rgb(88, 116, 182)
   );
-  background: -moz-linear-gradient(
-    180deg, 
-    rgb(31, 60, 140), 
-    rgb(88, 116, 182)
-  );
+  background: -moz-linear-gradient(180deg, rgb(31, 60, 140), rgb(88, 116, 182));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.count-title{
+.count-title {
   padding: 0%;
   margin-top: 0px;
   font-size: 30pt;
@@ -183,12 +177,12 @@ body {
   color: #5d5d5d;
 }
 
-.news-and-updates{
+.news-and-updates {
   background-color: #f4f4f4;
   /* height: 100vh; */
 }
 
-.carousel-container{
+.carousel-container {
   margin: 50px;
   margin-top: 80px;
   width: 1650px;
@@ -196,38 +190,33 @@ body {
   background-color: #112a65;
   border-radius: 80px;
 }
-.carousel-container img{
+.carousel-container img {
   border-radius: 80px;
   /* width: 1650px; */
   /* height: 550px; */
 }
-.publication-outer-container{
+.publication-outer-container {
   padding: 60px;
   margin: 60px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
-.publi-main-container{
-  text-align: left;
+.publi-main-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
+  color: #3d3d3d;
+}
 
-}
-.turuq-content{
-  text-align: right;
-}
-.publi-logo{
+.publi-logo {
   width: 300px;
 }
-.publi-main-content{
+.publi-main-content {
+  text-align: left;
   padding: 80px;
-  font-size: 16pt;
+  font-size: 16.5pt;
+  font-weight: 450;
 }
-
-.publi-main-content{
-  /* margin: 60px; */
+.turuq-content {
+  text-align: right;
 }
