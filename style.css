@@ -201,3 +201,33 @@ body {
   /* width: 1650px; */
   /* height: 550px; */
 }
+.publication-outer-container{
+  padding: 60px;
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.publi-main-container{
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.turuq-content{
+  text-align: right;
+}
+.publi-logo{
+  width: 300px;
+}
+.publi-main-content{
+  padding: 80px;
+  font-size: 16pt;
+}
+
+.publi-main-content{
+  /* margin: 60px; */
+}
